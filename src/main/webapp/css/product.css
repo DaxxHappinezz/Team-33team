@@ -1,0 +1,197 @@
+  *{
+    box-sizing: border-box;
+  }
+
+  a {
+      text-decoration: underline;
+  }
+
+  ul, li {
+      list-style: none;
+
+  }
+
+  .container {
+      margin: auto 0;
+      width: 100%;
+      max-width: 800px;
+  }
+
+  .regFormList label,
+  .regFormList select,
+  .regFormList input {
+      font-size: 13px;
+
+  }
+
+  .regFormList label {
+      width: 80px;
+      background-color: #b2b2b2;
+  }
+
+  .regFormList select,
+  .regFormList input {
+      width: 150px;
+      text-align: center;
+  }
+
+  /*테이블 관련*/
+  .table-container {
+      margin: auto 30px;
+      width: 100%;
+      max-width: 800px;
+  }
+
+  .tbl_type {
+      width: 100%;
+      border-bottom: 1px solid #999;
+      color: #666;
+      font-size: 12px;
+      table-layout: auto;
+  }
+
+  tbl_type, .tbl_type th, .tbl_type td {
+      border: 0;
+  }
+
+
+  .tbl_type caption, .tbl_type .frm label {
+      display: none;
+  }
+
+  .tbl_type th {
+      padding: 5px 0 4px;
+      border-top: solid 1px #999;
+      border-bottom: solid 1px #b2b2b2;
+      background-color: #b2b2b2;
+      color: #333;
+      font-weight: bold;
+      line-height: 18px;
+      vertical-align: top;
+      text-align: center;
+  }
+
+  .tbl_type td {
+      padding: 8px 0 5px;
+      border-bottom: solid 1px #d2d2d2;
+      text-align: center;
+  }
+
+  .tbl_type .frm {
+      padding: 0;
+      text-align: center;
+  }
+
+  .tbl_type .frm input {
+      margin: 0;
+  }
+
+  .tbl_type .num, .tbl_type .date, .tbl_type .hit {
+      padding: 0;
+      font-family: Tahoma;
+      font-size: 11px;
+      line-height: normal;
+  }
+
+  .tbl_type .title {
+      text-align: left;
+  }
+
+  .tbl_type .title .pic, .tbl_type .title .new {
+      margin: 0 0 2px;
+      vertical-align: middle;
+  }
+
+  .tbl_type tr.reply .title a {
+      padding-left: 12px;
+      background: url(img/ic_reply.gif) 0 1px no-repeat;
+  }
+
+  .tbl_type tr.reply td a.comment {
+      padding: 0;
+      background: none;
+      color: #f00;
+      font-size: 12px;
+      font-weight: bold;
+  }
+
+  /*페이징 관련*/
+  .page-box {
+      width: 80%;
+      margin: 5px auto;
+      height: 30px;
+      text-align: center;
+      font-size: 15px;
+  }
+
+  .page-box a {
+      color: #aaa;
+      font-weight: bold;
+      text-decoration: none;
+  }
+
+  /*헤더 라인*/
+  .division-line {
+      width: 100%;
+      border-bottom: 3px solid #E8E8E8;
+      margin-bottom: 5px;
+  }
+
+  /*버튼 관련*/
+  .btnArea {
+      height: 30px;
+      align-items: center; /* 세로 가운데 정렬 */
+      float: right;
+  }
+  .selectBar select,
+  .selectBar input,
+  .selectBar button {
+      margin-right: 10px;
+  }
+
+  .selectBar button {
+      margin-right: 0;
+  }
+
+  select {
+      width: 150px;
+      height: 25px;
+      font-size: 12px;
+      text-align: center;
+  }
+
+  /*검색 select, input, button 관련*/
+  .selectContainer {
+      display: flex;
+      justify-content: center; /* 가로 가운데 정렬 */
+      align-items: center; /* 세로 가운데 정렬 */
+  }
+
+  .selectBar {
+      display: flex;
+      align-items: center; /* 세로 가운데 정렬 */
+  }
+  input {
+      height: 25px;
+      font-size: 12px;
+  }
+
+  /*기본 버튼*/
+  button {
+      height: 25px;
+      font-size: 12px;
+      width: 80px;
+      
+
+  background-color: #333;
+  color: #fff;
+  
+  border: none;
+  border-radius: 3px;
+      
+      
+  }
+  
+  button:hover {
+	  background-color: #5f5e5e;
+  }
