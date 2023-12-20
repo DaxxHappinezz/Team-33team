@@ -5,8 +5,8 @@
 - 타 부서 인원이 전산팀에 1:1 문의로 장비 반입/출, 유지보수 요청 가능
 
 ## ⚙️ 기술 스택
+- Oracle JDK 11.0.13
 - Spring Boot 2.7.15
-- OracleJDK 11
 - MySQL 8.0.33
 - Aphache Tomcat 9.0.75
 
