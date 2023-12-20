@@ -7,8 +7,10 @@
 ## ⚙️ 기술 스택
 - Oracle JDK 11.0.13
 - Spring Boot 2.7.15
+- Spring Web (+ Tomcat)
+- Lombok
+- Gradle 8.2.1
 - MySQL 8.0.33
-- Aphache Tomcat 9.0.75
 
 ## 🔎 주요 서비스
 ```
